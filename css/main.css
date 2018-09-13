@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Lato', sans-serif !important;
 }
 
 img {
@@ -44,18 +45,6 @@ img {
   clear: both;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
 a {
   color: #373B47;
   text-decoration: none;
@@ -63,11 +52,18 @@ a {
 
 a:hover {
   color: #E95853;
+  cursor: pointer;
 }
 
 .text-uppercase {
   text-transform: uppercase;
+  float: right;
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+.link{
+line-height: 2;
+padding:21px;
+display: inline-block;
+}
